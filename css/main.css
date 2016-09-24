@@ -1,0 +1,97 @@
+/**
+Root font size = 15px
+**/
+body {
+  font-family: "Cabin", Helvetica, Arial, sans-serif;
+  background-color: #b9f6ca; }
+
+.brand-logo {
+  font-size: 4.5rem;
+  font-family: "Lobster", Georgia, Times, serif;
+  color: #b9f6ca; }
+
+.header {
+  font-family: "Lobster", Georgia, Times, serif;
+  color: #b9f6ca; }
+
+nav {
+  background-color: transparent;
+  box-shadow: none; }
+  nav ul {
+    text-align: center; }
+  nav ul a {
+    color: white;
+    padding: 0 30px; }
+  nav ul a:hover {
+    background-color: #b9f6ca;
+    color: #212121; }
+  nav ul li {
+    font-size: 2rem;
+    display: inline-block;
+    float: none; }
+  @media only screen and (min-width: 601px) {
+    nav {
+      height: 40px;
+      line-height: 40px; } }
+
+.nav-logos {
+  height: auto;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(185, 246, 202, 0.7);
+  z-index: 2; }
+  .nav-logos img {
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+    float: left;
+    display: block; }
+  .nav-logos .clear {
+    clear: both; }
+  .nav-logos #snap {
+    height: 90px;
+    width: 90px; }
+
+.parallax-container {
+  height: 500px; }
+
+.carousel {
+  height: 315px; }
+  .carousel .carousel-item {
+    width: 500px;
+    top: 80px; }
+
+.enlarge {
+  margin-bottom: 15px; }
+
+.bottom-image {
+  display: flex; }
+  .bottom-image span {
+    clear: both; }
+  .bottom-image .material-placeholder {
+    margin: 0 auto; }
+
+.profile {
+  display: flex;
+  margin-top: 1.1rem; }
+  .profile img {
+    width: 325px;
+    height: 295px;
+    margin-right: 3.5rem;
+    -webkit-shape-outside: circle();
+    shape-outside: circle(); }
+  .profile .card-panel {
+    margin: 0; }
+
+.logos {
+  display: flex; }
+  .logos .responsive-img, .logos a {
+    height: 64px;
+    width: 64px;
+    margin: 1rem auto; }
+
+footer {
+  background-color: #b9f6ca; }
+
+/*# sourceMappingURL=maps/main.css.map */
